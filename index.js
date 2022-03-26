@@ -13,7 +13,7 @@ function managerInit() {
      {
          type: 'input',
          name: 'name',
-         message: 'What is the managers first and last name?'
+         message: 'What is the managers first and last name?',
          Validate: input => {
              if (input) {
                  return true;
@@ -26,7 +26,7 @@ function managerInit() {
      {
         type: 'input',
         name: 'id',
-        message: 'What is the managers ID number?'
+        message: 'What is the managers ID number?',
         Validate: input => {
             if (input) {
                 return true;
@@ -39,7 +39,7 @@ function managerInit() {
     {
         type: 'input',
         name: 'email',
-        message: 'What is the managers email?'
+        message: 'What is the managers email?',
         Validate: input => {
             if (input) {
                 return true;
@@ -52,7 +52,7 @@ function managerInit() {
     {
         type: 'input',
         name: 'officeNumber',
-        message: 'What is the managers office number?'
+        message: 'What is the managers office number?',
         Validate: input => {
             if (input) {
                 return true;
