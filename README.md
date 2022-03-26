@@ -1,4 +1,7 @@
 #  Team Profile Generator
+
+Screenshots: https://user-images.githubusercontent.com/92739989/160258987-c033e901-7e09-4494-a9a6-841c4dd276ea.png
+
         
 
         ## Table of Contents
