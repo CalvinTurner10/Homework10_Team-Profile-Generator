@@ -1,0 +1,19 @@
+{
+  "name": "homework10_team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalvinTurner10/Homework10_Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalvinTurner10/Homework10_Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/CalvinTurner10/Homework10_Team-Profile-Generator#readme"
+}
