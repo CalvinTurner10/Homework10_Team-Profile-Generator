@@ -4,19 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CalvinTurner10/Homework10_Team-Profile-Generator.git"
   },
-  "author": "",
+  "author": "Calvin Turner",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CalvinTurner10/Homework10_Team-Profile-Generator/issues"
   },
   "homepage": "https://github.com/CalvinTurner10/Homework10_Team-Profile-Generator#readme",
   "dependencies": {
+    "inquirer": "^8.2.2",
     "material-design-icons": "^3.0.1"
   }
 }

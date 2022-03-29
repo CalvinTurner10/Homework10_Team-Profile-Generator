@@ -4,26 +4,26 @@ employeecard = (data) => {
 
     for (let i =0; i < data.length; i++){
         const employee = data[i];
-        const role = employee.getRole();
-        if (role === 'Manager') {
+        const job = employee.getJob();
+        if (job === 'Manager') {
             const managerCard = generateManager(employee);
             myTeam.push(managerCard);
         }
-        if (role === 'Engineer') {
+        if (job === 'Engineer') {
             const engineerCard= generateEngineer(employee);
             myTeam.push(engineerCard);
         }
-        if (role === 'Intern') {
+        if (job === 'Intern') {
             const internCard = generateIntern (employee);
             myTeam.push(internCard);
         }
     }
     const employeeCards = myTeam.join('')
-    const generateTeam = generateTeamPage(employeeCards)
+    const generateTeam = generateMyTeamPage(employeeCards)
     return generateTeam;
 }
 
-const generateTeamPage = (employeeCards) => {
+const generateMyTeamPage = (employeeCards) => {
     return `
     <!DOCTYPE html>
 <html lang="en">

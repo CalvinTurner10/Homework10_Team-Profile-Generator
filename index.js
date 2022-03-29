@@ -67,13 +67,13 @@ function managerInit() {
      const { name, id, email, officeNumber} = managerresponses;
      const manager = new Manager(name, id, email, officeNumber);
      theTeam.push(manager);
-     console.log("Welcome" + managerresponses.name + "!Avenger Assemble.");
+     console.log("Welcome "  + managerresponses.name + "! Let's create your team.");
      employeeInit();
  });
 
 };
 
-function EmployeeInit() {
+function employeeInit() {
     inquirer
     .prompt([
         {
@@ -158,17 +158,21 @@ function EmployeeInit() {
     ])
         
 .then ((employeeData) => {
-    const {name, id, email, role, github, school, addEmployee} = employeeData;
+    const {name, id, email, job, github, school, addEmployee} = employeeData;
     let employee;
     
-    if(job == "Engineer"){
+    if (job == "Engineer"){
         employee = new Engineer(name, id, email, github);
 
         console.log(employee);
+
     } else if (job == "Intern") {
         employee = new intern(name, id, email, school);
+        
         console.log(employee);
+
     }
+    
     theTeam.push(employee);
     if (addEmployee == 'yes'){
         employeeInit();
