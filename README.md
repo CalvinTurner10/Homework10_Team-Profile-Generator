@@ -1,6 +1,6 @@
 #  Team Profile Generator
 
-Walkthrough video: https://www.kapwing.com/videos/62454dc083e203005f880227
+Walkthrough video: https://www.kapwing.com/videos/62454e532f0a4801012ec3e5
 
         Screenshots : <img width="893" alt="Screen Shot 2022-03-31 at 2 36 07 AM" src="https://user-images.githubusercontent.com/92739989/160991595-3839ef57-7923-481f-83d7-dbe456612204.png">
 
