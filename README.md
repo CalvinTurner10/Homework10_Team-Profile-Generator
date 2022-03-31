@@ -1,11 +1,12 @@
 #  Team Profile Generator
 
+<img width="893" alt="Screen Shot 2022-03-31 at 2 36 07 AM" src="https://user-images.githubusercontent.com/92739989/160991595-3839ef57-7923-481f-83d7-dbe456612204.png">
+
+<img width="605" alt="Screen Shot 2022-03-31 at 2 37 09 AM" src="https://user-images.githubusercontent.com/92739989/160991731-bb74d3e4-09cb-49be-bcce-55c4193d5736.png">
+
 Walkthrough video: https://www.kapwing.com/videos/62454ed2c9ce6000a69ed3bd
 
-        Screenshots : <img width="893" alt="Screen Shot 2022-03-31 at 2 36 07 AM" src="https://user-images.githubusercontent.com/92739989/160991595-3839ef57-7923-481f-83d7-dbe456612204.png">
-
-        <img width="605" alt="Screen Shot 2022-03-31 at 2 37 09 AM" src="https://user-images.githubusercontent.com/92739989/160991731-bb74d3e4-09cb-49be-bcce-55c4193d5736.png">
-        ## Table of Contents
+       
         
         *[Project Description](#project-description)
         *[Installation](#installation)
